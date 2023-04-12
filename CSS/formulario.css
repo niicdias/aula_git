@@ -1,0 +1,19 @@
+label{
+    display: block;
+    padding: 10px 0;
+}
+
+.lblRadio{
+    display: inline-block;
+}
+
+input{
+    border: none;
+    background-color: rgb(158, 124, 190);
+    border-radius: 3px;
+    padding: 3px;
+}
+input:focus{
+    background-color: aqua;
+    color: brown;
+}

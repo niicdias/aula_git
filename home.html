@@ -4,67 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/layout.css".css">
+    <link rel="stylesheet" href="CSS/layout.css".css>
     <title>Niicflix</title>
 </head>
 <body>
     <body>
-        <header class="cabecalho">
-            <h1>Home </h1>
-            <p>O que deseja para hoje?</p>
-        </header>
+        <header id="header" class="main" style="opacity: 1;"></header>
+        
+        
         <nav class="topnav">
             <a href="series.html">Series</a>
             <a href="filme.html">Filmes</a>
-            <a href="top10.html">Top10</a>
             <a href="home.html">Home</a>
             <a href="#" style="float: right;">Configuraçoes</a>
+            <a href="quemsomos.html" style="float: right;">Quem Somos</a>
             <a href="#" style="float: right;">Entrar/Cadastrar</a>
+            <a href="#" style="float: right;">
+                <form action="" method="post">
+                    <label for="">Pesquisar</label>
+                    <input type="text" name="" id=""
+                    placeholder="O que Deseja ver?" maxlength="30">
+                    <select name="" id="">
+                        <option selected></option>
+                        <option value="filmes">Filmes</option>
+                        <option value="series">Series</option>
+                    </select>
+                </form>
+            </a>
         </nav>
         <main class="principal">
-            <div class="colEsq">
+            
                 <div class="card">
-                    <h2>Terror</h2>
-                    <div class="imagens">
-                        <div>
-                           <img src="filmes.img/filme1.png" alt="">
-                           <p>Angels & demons</p> 
-                        </div>
-                        <div>
+                    <h1>Terror</h1>
+                    <div class="">
+                        <a href="tela.f1.html">
+                            <img src="filmes.img/filme1.png" alt="" >
+                        </a>
+                        <a href="tela.f2.html">
                             <img src="filmes.img/filme2.png" alt="">
-                            <p>Anges & demons</p>
-                        </div>
-                        <div>
-                            
-                        </div>
-                        <img src="filmes.img/filme3.png" alt="">   
-                        <img src="filmes.img/filme4.png" alt=""> 
-                        <img src="filmes.img/filme5.png" alt="">
-                        <img src="filmes.img/filme6.png" alt="">
-                        <img src="filmes.img/filme7.png" alt="">
+                        </a>
+                        <a href="tela.f3.html">
+                            <img src="filmes.img/filme3.png" alt="">
+                        </a>
+                        <a href="tela.f4.html">
+                            <img src="filmes.img/filme4.png" alt="">
+                        </a>
+                        <a href="tela.f5.html">
+                            <img src="filmes.img/filme5.png" alt="">
+                        </a>
+                         <a href="tela.f6.html">
+                            <img src="filmes.img/filme6.png" alt="">
+                         </a>
+                        <a href="tela.f7.html">
+                            <img src="filmes.img/filme7.png" alt="">
+                        </a>
                     </div>
-                    <p></p>
-                </div>
+                
                 <div class="card">
-                    <h2>Desenho animado</h2>
-                    <div class="imagens">
+                    <h1>Desenho animado</h1>
+                    <div class="">
                         <img src="filmes.img/desenho1.png" alt="">
                         <img src="filmes.img/desenho2.png" alt="">
                         <img src="filmes.img/desenho3.png" alt="">
                         <img src="filmes.img/desenho4.png" alt="">
                         <img src="filmes.img/desenho5.png" alt="">
                         <img src="filmes.img/desenho6.png" alt="">
-    
                     </div>
                     
                 </div>
                 <div class="card">
-                    <h2>Subway Surf</h2>
-                    
-    
+                    <h2>Filmes de Comedia</h2>
                     <div class="imagens">
-                        <img src="images/subwaysurf.png" alt="">
-    
+                        <img src="filmes.img/comedia1.png" alt="">
+                        <img src="filmes.img/comedia2.png" alt="">
+                        <img src="filmes.img/comedia3.png" alt="">
+                        <img src="filmes.img/comedia4.png" alt="">
+                        <img src="filmes.img/comedia5.png" alt="">
+                        <img src="filmes.img/comedia6.png" alt="">
+                        <img src="filmes.img/comedia7.png" alt="">
                     </div>
                     <p>Descriçao do jogo</p>
                 </div>
@@ -73,7 +90,7 @@
     
             <div class="colDir">
                 <div class="card">
-                    <h2>GTA5</h2>
+                    <h2>Series para a Familia</h2>
                     <div class="imagens">
                         <img src="images/jogos 1.png" alt="">
                     </div>
@@ -82,7 +99,7 @@
                     <p>descriçao</p>
                 </div>
                 <div class="card">
-                    <h2>Mortal kombate</h2>
+                    <h2>Ação</h2>
                     <div class="imagens">
                         <img src="images/jogos2.png" alt="">
                     </div>
@@ -96,7 +113,10 @@
     
         </main>
         <footer class="footer">
-            <h2>Rodapé</h2>
+            <h2>para mais informaçoes</h2>
+            <h3>chamar a central de ajuda</h3>
+
+            <a href="central de ajuda">central</a>
         </footer>
 </body>
 </html>
