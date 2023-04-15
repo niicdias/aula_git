@@ -4,7 +4,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(56, 30, 61);
     padding: 10px;
 }
 
@@ -34,7 +34,7 @@ body{
 
 .topnav a:hover{
     background-color: rgb(111, 60, 134);
-    color: rgb(18, 19, 19);
+    color: rgb(111, 60, 134);
     border-bottom: solid 1px rgb(17, 16, 17);
     border-radius: 5px;
 }
@@ -49,7 +49,7 @@ body{
 .colDir {
     float: right;
     width: 50%;
-    background-color: rgb(179, 94, 187);
+    background-color: rgb(56, 30, 61);
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -61,7 +61,11 @@ body{
     padding: 20px;
 }
 
-.card {
+.card1 {
+    padding: 20px;
+    margin-top: 20px;
+}
+.card2 {
     background-color: rgb(135, 44, 163);
     padding: 20px;
     margin-top: 20px;
@@ -81,7 +85,7 @@ body{
 }
 
 .imagens img{
-    width: 13%;
+    width: 10%;
 }
 
 .colEsc{
@@ -105,6 +109,13 @@ body{
 .listasemmarcador{
     list-style: circle;
 }
-.tyly1 {
+
+div{
+    display: block;
+}
+
+.center{
+    display: block;
     text-align: center;
 }
+
