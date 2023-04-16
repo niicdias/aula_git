@@ -4,8 +4,10 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(56, 30, 61);
+    background-color: rgb(52, 27, 75);
+    text-align: center;
     padding: 10px;
+    
 }
 
 .cabecalho{
@@ -20,7 +22,7 @@ body{
 
 .topnav{
     overflow: hidden;
-    background-color: rgb(20, 13, 27);
+    background-color: rgb(12, 9, 14);
 }
 
 .topnav a{
@@ -66,7 +68,7 @@ body{
     margin-top: 20px;
 }
 .card2 {
-    background-color: rgb(135, 44, 163);
+    background-color: rgb(65, 29, 99);
     padding: 20px;
     margin-top: 20px;
 }
@@ -80,12 +82,12 @@ body{
 .footer {
     padding: 20px;
     text-align: center;
-    background-color: rgb(147, 84, 177);
+    background-color: rgb(84, 26, 112);
     margin-top: 50px; 
 }
 
 .imagens img{
-    width: 10%;
+    width: 12%;
 }
 
 .colEsc{
@@ -114,8 +116,4 @@ div{
     display: block;
 }
 
-.center{
-    display: block;
-    text-align: center;
-}
 
